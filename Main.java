@@ -1,21 +1,21 @@
 public class Main {
    public static void main(String[] args) {
     CustomStringMethods methods = new CustomStringMethods();
-    String str = methods.halvesReversed("computer");  //even # of letters
+    boolean bool = methods.longerThan("burger", 4);
+    System.out.println(bool);
+    String str = methods.funnyString("pizza", 3);
     System.out.println(str);
-    str = methods.halvesReversed("computers");        //odd # of letters
+    str = methods.halvesReversed("banana");
     System.out.println(str);
-    str = methods.halvesReversed("sky");
+    str = methods.pigLatin("sandwich");
     System.out.println(str);
-    str = methods.halvesReversed("weekend");
+    str = methods.removeCharacter("chicken", 4);
     System.out.println(str);
-    str = methods.halvesReversed("an");
+    str = methods.insertAt("carrot", "hi", "r");
     System.out.println(str);
-    str = methods.halvesReversed("I");
+    str = methods.endUp("cake", 2);
     System.out.println(str);
-    str = methods.halvesReversed("see you soon");
-    System.out.println(str);
-    str = methods.halvesReversed("see you later!");
+    str = methods.yellOrWhisper("Fried fish");
     System.out.println(str);
     }
 }
